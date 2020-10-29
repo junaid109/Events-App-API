@@ -1,0 +1,9 @@
+Domain/bin/
+Domain/obj/
+Events-App-API/bin/
+*.CopyComplete
+Events-App-API/obj/
+Persistence/obj/
+Persistence/bin/
+Application/obj/
+Application/bin/

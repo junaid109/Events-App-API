@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Application",
+    "\\Domain",
+    "\\Events-App-API",
+    "\\Events-App-API\\Controllers",
+    "\\Persistence"
+  ],
+  "SelectedNode": "\\Events-App-API\\Events-App-API.sln",
+  "PreviewInSolutionExplorer": false
+}
