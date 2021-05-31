@@ -10,8 +10,9 @@ using Persistence;
 
 namespace Events_App_API.Controllers
 {
+    [Produces("application/json")]
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("[controller]")]
     public class ValuesController : ControllerBase
     {
         private readonly ILogger<ValuesController> _logger;
@@ -24,7 +25,7 @@ namespace Events_App_API.Controllers
 
         }
 
-        [HttpGet]
+        [HttpGet(Name = "GetValues")]
         public async Task<ActionResult<IEnumerable<Value>>> Get()
         {
             
